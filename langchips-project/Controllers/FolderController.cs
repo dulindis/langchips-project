@@ -54,7 +54,7 @@ namespace langchips_project.Controllers
             List<Entry> newEntryList = new List<Entry>();
             return true;
         }
-
+        //comment empty
         public Entry CreateNewEntry(string word, string translation, Language languageOfWord, Language languageOfTranslation, bool hasVoiceOption)
         {
             Entry newEntry = new Entry(word, translation, languageOfWord, languageOfTranslation, hasVoiceOption);
